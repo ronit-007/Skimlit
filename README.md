@@ -1,8 +1,10 @@
 # Skimlit
 
 
-## Link to model:- [https://drive.google.com/drive/folders/1-PvDfHoLyb6I07wyAi0b8mqLRgi7Yg1T?usp=sharing]
+## Link to model:- [https://bit.ly/3Kjl547]
 
+## Model:
+https://imgur.com/auiBIYd
 ## Overview
 This is a deep learning model which helps to read medical abstract easier.
 
