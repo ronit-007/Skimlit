@@ -79,8 +79,7 @@ For preprocessing our data, we're going to use TensorFlow 2.x. The whole premise
     ```
  - Making numeric labels (ML Model requires labels)
  - Label encoding labels
-
-A good place to read about this type of function is the [TensorFlow documentation on loading images](https://www.tensorflow.org/tutorials/load_data/images). 
+ 
 
 ### Preparing our data (the text) for deep sequence models
 
