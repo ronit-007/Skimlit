@@ -69,7 +69,7 @@ For preprocessing our data, we're going to use TensorFlow 2.x. The whole premise
 ## Getting Data ready
 ### Preprocessing data 
 
-- To make sure the readability if the dataset I preferred to make the data look like this
+- To make sure the readability of the dataset I preferred to make the data look like this
   
     ```
      [{'line_number': 0,
