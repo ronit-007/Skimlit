@@ -132,14 +132,14 @@ The buliding of model involved:
    > **Note:** Any engineered features used to train a model need to be availabel at the testing time. In our case line numbers and total lines are availabel
  
  The Building of the model involved:
-    1. Create a token-level Model
-    2. Create a character-level Model
-    3. Create a model for the "line_number" feature
-    4. Creae a model for the "total_lines" feature
-    5. Combine the outputs of 1 & 2 using `tf.keras.layers.Concatenate`
-    6. Combine the outputs of 3,4,5 using `tf.keras.layers.Concatenate`
-    7. Create an output layer to accept the tribrid embedding and output label probabilties
-    8. Combine the inputus of 1 ,2 ,3,4 and outputs of into a `tf.keras.Model`
+   1. Create a token-level Model
+   2. Create a character-level Model
+   3. Create a model for the "line_number" feature
+   4. Creae a model for the "total_lines" feature
+   5. Combine the outputs of 1 & 2 using `tf.keras.layers.Concatenate`
+   6. Combine the outputs of 3,4,5 using `tf.keras.layers.Concatenate`
+   7. Create an output layer to accept the tribrid embedding and output label probabilties
+   8. Combine the inputus of 1 ,2 ,3,4 and outputs of into a `tf.keras.Model`
     
    **Plot of the model**:
     <img src="https://user-images.githubusercontent.com/106836228/186620260-76cb1a7c-db0b-4873-88c4-00ef3ee83abc.png">
